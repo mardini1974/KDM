@@ -23,7 +23,7 @@ repo_name = "KDM"
 branch = "main"
 firmware_url = f"{secrets.rep_url}/{repo_name}/{branch}/"        
 connect_wifi(secrets.WIFI_SSID,secrets.WIFI_PASSWORD)
-filenames = ["test.py","test2.html"]
+filenames = ["kalmeijer.html","404.html","saved.html","Server.py"]
 ota_updater = OTAUpdater(firmware_url, filenames )
 
 # ota_updater.check_for_updates()
